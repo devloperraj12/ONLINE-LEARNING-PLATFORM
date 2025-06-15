@@ -19,3 +19,7 @@ The entire site is styled using a separate CSS file (`style.css`). It includes c
 
 Overall, CyberLearn is a simple and clean web-based learning platform prototype. It demonstrates my understanding of front-end development and how to organize a basic interactive project with good UI/UX design in mind.
 
+#OUTPUT
+![Image](https://github.com/user-attachments/assets/89307146-7c7c-4f80-93f2-be7ded555129)
+![Image](https://github.com/user-attachments/assets/f073a8db-da6a-4276-adce-0d9f74e97125)
+![Image](https://github.com/user-attachments/assets/4bac72f5-ecba-4a8e-abc9-5a28e0724133)
