@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>CyberLearn - Home</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <header>
+    <nav>
+      <a href="#hero">Home</a>
+      <a href="#features">Features</a>
+      <a href="#quiz">Quiz</a>
+      <a href="login.html">Login</a>
+    </nav>
+  </header>
+
+  <section id="hero" class="hero">
+    <h1>Welcome to CyberLearn 🚀</h1>
+    <p class="hero-subtext">
+      Interactive video lessons, real-time quizzes, and seamless learning experience for students around the world.
+    </p>
+  </section>
+
+  <section id="features" class="features">
+    <div class="feature">📺 Video Lessons</div>
+    <div class="feature">📝 Interactive Quizzes</div>
+    <div class="feature">🧠 Live Doubt Support</div>
+    <div class="feature">📜 Certificate on Completion</div>
+  </section>
+
+  <section id="quiz" class="container">
+    <h2>Sample Quiz</h2>
+    <form id="quiz-form">
+      <div class="quiz-question">
+        <p><b>Q1:</b> What does HTML stand for?</p>
+        <label><input type="radio" name="q1" value="correct"> HyperText Markup Language</label><br>
+        <label><input type="radio" name="q1" value="wrong"> HighText Machine Language</label><br>
+        <label><input type="radio" name="q1" value="wrong"> Home Tool Markup Language</label><br>
+      </div>
+
+      <div class="quiz-question">
+        <p><b>Q2:</b> Which language is used for styling web pages?</p>
+        <label><input type="radio" name="q2" value="wrong"> HTML</label><br>
+        <label><input type="radio" name="q2" value="correct"> CSS</label><br>
+        <label><input type="radio" name="q2" value="wrong"> JavaScript</label><br>
+      </div>
+
+      <div class="quiz-question">
+        <p><b>Q3:</b> What does CSS stand for?</p>
+        <label><input type="radio" name="q3" value="correct"> Cascading Style Sheets</label><br>
+        <label><input type="radio" name="q3" value="wrong"> Colorful Style System</label><br>
+        <label><input type="radio" name="q3" value="wrong"> Computer Styled Sheets</label><br>
+      </div>
+
+      <div class="quiz-question">
+        <p><b>Q4:</b> JavaScript is used to:</p>
+        <label><input type="radio" name="q4" value="wrong"> Add style</label><br>
+        <label><input type="radio" name="q4" value="correct"> Make websites interactive</label><br>
+        <label><input type="radio" name="q4" value="wrong"> Store data only</label><br>
+      </div>
+
+      <div class="quiz-question">
+        <p><b>Q5:</b> Which tag is used to create a hyperlink in HTML?</p>
+        <label><input type="radio" name="q5" value="wrong"> &lt;link&gt;</label><br>
+        <label><input type="radio" name="q5" value="correct"> &lt;a&gt;</label><br>
+        <label><input type="radio" name="q5" value="wrong"> &lt;href&gt;</label><br>
+      </div>
+
+      <button type="submit" class="btn">Submit Quiz</button>
+    </form>
+
+    <div id="quiz-result"></div>
+  </section>
+
+  <footer>
+    <p>© 2025 CyberLearn. All rights reserved.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
