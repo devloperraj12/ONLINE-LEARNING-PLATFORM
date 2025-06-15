@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Login - CyberLearn</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <div class="container">
+    <h1>Login to CyberLearn</h1>
+
+    <div class="login-box">
+      <input id="email" type="email" placeholder="Enter your email" /><br /><br />
+      <input id="password" type="password" placeholder="Enter your password" /><br /><br />
+      <button class="btn" onclick="handleLogin()">Login</button>
+    </div>
+  </div>
+
+  <script>
+    function handleLogin() {
+      const email = document.getElementById("email").value.trim();
+      const password = document.getElementById("password").value.trim();
+
+      if (email && password) {
+        alert("Login Successful!");
+        window.location.href = "index.html";
+      } else {
+        alert("Invalid Credentials. Please enter email and password.");
+      }
+    }
+  </script>
+</body>
+</html>
